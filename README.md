@@ -1,5 +1,15 @@
 # enp_bootstrap_fraude
 
+## Integrantes del equipo
+
+Norma García Salazar
+
+Javier Montiel González
+
+Karla Mayra Pérez Muñoz
+
+Iker Antonio Olarra Maldonado
+
 ## Propuesta de proyecto
 
 Implementación de un modelo con Fractional-Random-Weight Bootstrap para detección de fraude.
