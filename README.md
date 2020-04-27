@@ -3,8 +3,11 @@
 ## Integrantes del equipo
 
 Norma García Salazar
+
 Javier Montiel González
+
 Karla Mayra Pérez Muñoz
+
 Iker Antonio Olarra Maldonado
 
 ## Propuesta de proyecto
