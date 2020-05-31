@@ -202,7 +202,24 @@ arboles4
 #verdaderos=testing$isFraud
 
 resultados<-function (bag, m, datapoint, porcentaje_d=.5, verdaderos ) {
+  
+  
+  ## función que evalua la función predict de r
+  tree_prediction <- function ( arbol , testing ) {
+    if(is.character( arbol ) ) {
+      return ( arbol )
+    }
+    else {
+      prediction <- predict ( arbol , testing , type = "class" )
+      return (prediction )
+    }
+  }
+  
+  
   # vemos que resultados sacaron los 10 arboles del set testing 
+  
+  
+  
   bag_prediction <- function ( bag , datapoint ) {
     l<-lapply ( seq (1 , length( bag ) ) , function( x) tree_prediction( bag[[ x ]] , datapoint ) )
     predictions <- data.frame(matrix(unlist(l), nrow=length(l), byrow=T))
